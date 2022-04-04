@@ -11,7 +11,7 @@ const Header = (props) => {
         console.log(cookie);
     });
 
-
+    // new functoion
     if(is_login){
         return(
      <React.Fragment>

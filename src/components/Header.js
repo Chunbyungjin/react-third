@@ -12,6 +12,24 @@ const Header = (props) => {
     });
 
 
+    if(is_login){
+        return(
+     <React.Fragment>
+         <Grid is_flex padding="4px 16px">
+             <Grid>
+                 <Text margin="0px" size="24px" bold>헬로</Text>
+             </Grid>
+             
+             <Grid is_flex>
+                 <Button text="내 정보"></Button>
+                 <Button text="강의 왜이래"></Button>
+                 <Button text="로그아웃"></Button>
+             </Grid>
+         </Grid>
+     </React.Fragment>
+
+ )
+ }
 
     return (
         <React.Fragment>
